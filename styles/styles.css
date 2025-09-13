@@ -4,8 +4,9 @@ nav {
 }
 
 nav a {
-    background-color: darkblue;
+    color: white; 
     padding: 10px;
+    display: block;
 }
 
 h1 {
