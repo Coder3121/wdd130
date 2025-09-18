@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+  --border: 1px solid rgb(0 0 0 / 0.1);
+  --margin: 10px;
+  --padding:10px;
+
+}
 
 nav {
     background-color: darkblue;
@@ -11,25 +17,10 @@ nav {
 
 nav a {
     color: white; 
-    padding: 10px;
     display: block;
-}
-
-h1 {
-    color: darkblue;
-}
-
-img {
-    width: 150px;
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-}
-
-p {
     padding: 10px;
 }
+
 
 main {
    max-width: 840px;
@@ -38,12 +29,32 @@ main {
 main img {
     width: 150px;
     height: auto;
-    float: right;
+    border: var(--border);
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
 }
 
 aside {
+    margin:var(--margin);
+    border: var(--border);
+    padding: var(--padding);
+    background-color: #dcf1ec;
+    color: black;
     width: 20rem;
     text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+h1 {
+    color: darkblue;
+}
+
+p {
+    padding: 0px;
 }
 
 aside h2 {
@@ -52,12 +63,6 @@ aside h2 {
     left: 150px;;
 }
 
-aside img {
-    width: 200px;
-    height: auto;
-}
-
-p {padding: 0;}
 
 footer {
     margin-top: 15px;
