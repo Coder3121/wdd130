@@ -53,6 +53,12 @@ nav, p, section, article {
     height: auto;
 }
 
+.hero article {
+    position:absolute;
+    bottom: 10px;
+    background-color: var(--accent2-color);
+}
+
 .hero article img {
     float: right;
     width: 125px;
