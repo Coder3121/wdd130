@@ -40,9 +40,35 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <form>
-            <div class="form-item column 2"></div>
-            <div class="form-item column 2"></div>
-            <div class="purpose"></div>
+            <div class="form-item column 2">
+                <label for="fullname">Name:</label>
+                <input type="text" name="fullname" placeholder="Your Full Name">
+            </div>
+            <div class="form-item column 2">
+                <label for="usermail">Email:</label>
+                <input id="usermail" type="email" name="usermail" placeholder="randomemail@yahoo.com">
+            </div>
+            <div class="purpose">
+                <label class="labelpurpose">
+                    Message
+                    <br>
+                    Purpose
+                    <br>
+                </label>
+                <div>
+                    <input id="inquiry" type="radio" name="purpse">
+                    <label for="inquiry">General Inquiry</label>
+                </div>
+                <div>
+                    <input id="question" type="radio" name="purpose">
+                    <label for="question">Reservation Question</label>
+                </div>
+                <div>
+                    <input id="suggestion" type="radio" name="purpose">
+                    <label for="suggestion">Web Suggestion</label>
+                </div>
+            </div>
+            </div>
             <div class="form-item"></div>
             <div class="form-item column 1"></div>
             <button id="submit" type="submit">Let the adventure begin!</button>
