@@ -53,6 +53,10 @@ body {
     --body-font: Arial , Helvetica, sans-serif;
 }
 
+h1{
+    
+    font-size: 4rem;
+}
 
 h1, h2 {
     font-family: var(--heading-font);
