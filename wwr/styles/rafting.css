@@ -139,3 +139,25 @@ footer {
     border: 1;
     scale:1.5;
 }
+
+form {
+    display: grid;
+}
+
+.column2 {
+    grid-template-columns: 1fr 3fr;
+}
+
+.column1 {
+    grid-template-columns: 1fr 7fr;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.purpose {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
