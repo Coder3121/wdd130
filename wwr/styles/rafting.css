@@ -3,7 +3,7 @@ header {
     background-color: var(--primary-color);
     color: var(--accent2-color); 
     display: grid;
-    grid-column: 1fr 1fr 1fr;
+    
     place-items: center;
 }
 
