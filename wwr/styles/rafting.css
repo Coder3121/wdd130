@@ -144,17 +144,15 @@ footer {
     scale:1.5;
 }
 
-.adventure {
-    clear: both;
-}
 
-.figures {
+
+.pictures {
     width:100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
+
 }
 
 form {
