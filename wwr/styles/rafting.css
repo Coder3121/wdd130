@@ -192,3 +192,21 @@ input[type = "radio"]{
     grid-template-columns: 1fr 2fr;
     gap: 2rem;
 }
+
+fieldset {
+    display: grid;
+    gap: 1rem;
+    margin: 1rem;
+    border: var(--border);
+    border-radius: 1rem;
+    padding: 1rem;
+    font-weight: 700;
+    background-color: var(--accent2-color);
+}
+
+legend {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    background-color: var(--secondary-color);
+}
