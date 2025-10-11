@@ -216,18 +216,4 @@ legend {
     background-color: var(--secondary-color);
 }
 
-.call-to-action {
-    width: 100%;
-    position: relative;
-}
 
-.linker {
-    z-index: 1;
-    width: 100%;
-    position: absolute;
-    text-align: center;
-    font-size: 1.4rem;
-    opacity: 0.9;
-    background-color: var(--accent1-color);
-    color: var(--secondary-color);
-}
