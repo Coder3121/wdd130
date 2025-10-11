@@ -219,4 +219,11 @@ legend {
 
 .caller {
     width: 100%;
+    position: relative;
+}
+
+.caller , .linker {
+    z-index: 1;
+    width: 100%;
+    
 }
